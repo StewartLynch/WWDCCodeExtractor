@@ -99,6 +99,15 @@ struct CodeExtractorView: View {
         }
         .disabled(viewModel.markdown.isEmpty)
 
+        Button {
+          viewModel.clear()
+          isURLFieldFocused = true
+        } label: {
+          Label("Clear", systemImage: "xmark.circle")
+        }
+        .disabled(viewModel.isGenerating || !viewModel.canClear)
+        .keyboardShortcut("k", modifiers: .command)
+
         Spacer()
 
         if viewModel.isGenerating {
@@ -130,6 +139,14 @@ final class CodeExtractorViewModel {
   var suggestedFilename: String?
 
   private let extractor = CodeTabExtractor()
+
+  var canClear: Bool {
+    !videoURLString.isEmpty
+      || !markdown.isEmpty
+      || statusMessage != nil
+      || snippetCount != nil
+      || suggestedFilename != nil
+  }
 
   var statusSymbolName: String {
     switch statusKind {
@@ -175,6 +192,16 @@ final class CodeExtractorViewModel {
     }
 
     isGenerating = false
+  }
+
+  func clear() {
+    videoURLString = ""
+    markdown = ""
+    isGenerating = false
+    statusMessage = nil
+    statusKind = .idle
+    snippetCount = nil
+    suggestedFilename = nil
   }
 
   func copyMarkdown() {

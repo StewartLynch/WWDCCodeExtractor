@@ -1,6 +1,12 @@
 # WWDC Code Extractor
 
+![macOS](https://img.shields.io/badge/macOS-14%2B-blue)
+![Swift](https://img.shields.io/badge/Swift-5.0%2B-orange)
+![License](https://img.shields.io/badge/license-All%20rights%20reserved-lightgrey)
+
 WWDC Code Extractor is a small macOS SwiftUI utility that turns the Code tab from an Apple Developer video page into a single Markdown file.
+
+![image-20260609132806628](assets/image-20260609132806628.png)
 
 Paste a URL like:
 
@@ -9,6 +15,12 @@ https://developer.apple.com/videos/play/wwdc2026/269
 ```
 
 If the video page includes a Code tab, the app fetches the page, extracts every code snippet, and generates Markdown with snippet titles, timestamps, video links, and Swift fenced code blocks.
+
+## Download
+
+Download the latest signed DMG from the GitHub Releases page:
+
+[Download WWDC Code Extractor](https://github.com/StewartLynch/WWDCCodeExtractor/releases/latest)
 
 ## Features
 
