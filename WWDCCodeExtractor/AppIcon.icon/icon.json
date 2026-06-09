@@ -1,0 +1,35 @@
+{
+  "fill" : {
+    "automatic-gradient" : "srgb:0.45882,0.15686,1.00000,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "glass" : true,
+          "image-name" : "center.svg",
+          "name" : "center"
+        },
+        {
+          "image-name" : "label-0-pillCenter.svg",
+          "name" : "pillCenter"
+        }
+      ],
+      "shadow" : {
+        "kind" : "layer-color",
+        "opacity" : 0.5
+      },
+      "specular" : true,
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.15
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

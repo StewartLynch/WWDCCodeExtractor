@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B0000112D00000000C0DEC0 /* WWDCCodeExtractorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0000102D00000000C0DEC0 /* WWDCCodeExtractorApp.swift */; };
+		7B0000132D00000000C0DEC0 /* CodeExtractorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0000122D00000000C0DEC0 /* CodeExtractorView.swift */; };
+		7B0000152D00000000C0DEC0 /* CodeTabExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0000142D00000000C0DEC0 /* CodeTabExtractor.swift */; };
+		BBF0BD912FD8955B0049E90F /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = BBF0BD902FD8955B0049E90F /* AppIcon.icon */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B0000012D00000000C0DEC0 /* WWDCCodeExtractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDCCodeExtractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B0000102D00000000C0DEC0 /* WWDCCodeExtractorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDCCodeExtractorApp.swift; sourceTree = "<group>"; };
+		7B0000122D00000000C0DEC0 /* CodeExtractorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeExtractorView.swift; sourceTree = "<group>"; };
+		7B0000142D00000000C0DEC0 /* CodeTabExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTabExtractor.swift; sourceTree = "<group>"; };
+		BBF0BD902FD8955B0049E90F /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B0000052D00000000C0DEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B0000022D00000000C0DEC0 = {
+			isa = PBXGroup;
+			children = (
+				7B0000032D00000000C0DEC0 /* WWDCCodeExtractor */,
+				7B0000062D00000000C0DEC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B0000032D00000000C0DEC0 /* WWDCCodeExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				7B0000102D00000000C0DEC0 /* WWDCCodeExtractorApp.swift */,
+				7B0000122D00000000C0DEC0 /* CodeExtractorView.swift */,
+				7B0000142D00000000C0DEC0 /* CodeTabExtractor.swift */,
+				BBF0BD902FD8955B0049E90F /* AppIcon.icon */,
+			);
+			path = WWDCCodeExtractor;
+			sourceTree = "<group>";
+		};
+		7B0000062D00000000C0DEC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B0000012D00000000C0DEC0 /* WWDCCodeExtractor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B0000042D00000000C0DEC0 /* WWDCCodeExtractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B00000F2D00000000C0DEC0 /* Build configuration list for PBXNativeTarget "WWDCCodeExtractor" */;
+			buildPhases = (
+				7B0000072D00000000C0DEC0 /* Sources */,
+				7B0000052D00000000C0DEC0 /* Frameworks */,
+				7B0000082D00000000C0DEC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWDCCodeExtractor;
+			productName = WWDCCodeExtractor;
+			productReference = 7B0000012D00000000C0DEC0 /* WWDCCodeExtractor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B0000002D00000000C0DEC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					7B0000042D00000000C0DEC0 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 7B00000C2D00000000C0DEC0 /* Build configuration list for PBXProject "WWDCCodeExtractor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B0000022D00000000C0DEC0;
+			productRefGroup = 7B0000062D00000000C0DEC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B0000042D00000000C0DEC0 /* WWDCCodeExtractor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B0000082D00000000C0DEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF0BD912FD8955B0049E90F /* AppIcon.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B0000072D00000000C0DEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0000112D00000000C0DEC0 /* WWDCCodeExtractorApp.swift in Sources */,
+				7B0000132D00000000C0DEC0 /* CodeExtractorView.swift in Sources */,
+				7B0000152D00000000C0DEC0 /* CodeTabExtractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B0000092D00000000C0DEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "WWDC Code Extractor";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHighResolutionCapable = YES;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.createchsol.WWDCCodeExtractor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7B00000A2D00000000C0DEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "WWDC Code Extractor";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHighResolutionCapable = YES;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.createchsol.WWDCCodeExtractor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7B00000D2D00000000C0DEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7B00000E2D00000000C0DEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B00000C2D00000000C0DEC0 /* Build configuration list for PBXProject "WWDCCodeExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B00000D2D00000000C0DEC0 /* Debug */,
+				7B00000E2D00000000C0DEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B00000F2D00000000C0DEC0 /* Build configuration list for PBXNativeTarget "WWDCCodeExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B0000092D00000000C0DEC0 /* Debug */,
+				7B00000A2D00000000C0DEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B0000002D00000000C0DEC0 /* Project object */;
+}
