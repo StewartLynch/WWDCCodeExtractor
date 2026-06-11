@@ -1,5 +1,7 @@
 # WWDC Code Extractor
 
+## If you downloaded the release 1.0.0, make sure you update to v1.1.0 as the Apple Developer site changed the url on the Developer page for the session code.
+
 ![macOS](https://img.shields.io/badge/macOS-14%2B-blue)
 ![Swift](https://img.shields.io/badge/Swift-5.0%2B-orange)
 ![License](https://img.shields.io/badge/license-All%20rights%20reserved-lightgrey)
