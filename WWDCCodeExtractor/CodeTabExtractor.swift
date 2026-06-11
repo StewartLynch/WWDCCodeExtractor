@@ -31,6 +31,7 @@ struct CodeSnippet {
 enum CodeTabExtractorError: LocalizedError {
   case invalidURL
   case unsupportedURL
+  case videoPageUnavailable
   case requestFailed(Int)
   case missingCodeTab
 
@@ -40,6 +41,8 @@ enum CodeTabExtractorError: LocalizedError {
       "Enter a valid Apple Developer video URL."
     case .unsupportedURL:
       "The URL does not look like an Apple Developer video page."
+    case .videoPageUnavailable:
+      "Apple Developer redirected that URL away from a video page. Check the event and session number."
     case .requestFailed(let statusCode):
       "Apple Developer returned HTTP \(statusCode)."
     case .missingCodeTab:
@@ -105,6 +108,10 @@ struct CodeTabExtractor {
       !(200..<300).contains(httpResponse.statusCode)
     {
       throw CodeTabExtractorError.requestFailed(httpResponse.statusCode)
+    }
+
+    guard response.url?.path.contains("/videos/play/") == true else {
+      throw CodeTabExtractorError.videoPageUnavailable
     }
 
     return String(decoding: data, as: UTF8.self)

@@ -30,7 +30,7 @@ struct CodeExtractorView: View {
           .fontWeight(.semibold)
 
         HStack(spacing: 8) {
-          TextField("https://developer.apple.com/videos/play/wwdc2026/269", text: $viewModel.videoURLString)
+          TextField("https://developer.apple.com/videos/play/wwdc2025/245", text: $viewModel.videoURLString)
             .textFieldStyle(.roundedBorder)
             .focused($isURLFieldFocused)
             .onSubmit {
